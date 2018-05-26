@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./js/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "wasm_bindgen/index.js",
+    filename: "index.js",
   },
   mode: "development"
 };
