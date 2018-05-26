@@ -1,5 +1,5 @@
-const js = import("./../wasm_bindgen/wasm_bindgen_hello");
+const rust = import("./../wasm_bindgen/wasm_bindgen_hello");
 
-js.then(js => {
-  js.greet("World!");
+rust.then(rust => {
+  rust.greet("World");
 });
